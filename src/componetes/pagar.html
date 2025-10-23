@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pagar - Tienda Online</title>
+  <link rel="stylesheet" href="../style/pagar.css">
+  <link rel="stylesheet" href="../style/index.css">
+
+  
+</head>
+<body>
+  <header class="header">
+    <a href="../index.html"><button class="back-btn">←</button></a>
+    <a class="logo" href="../index.html">LOGO</a>
+  </header>
+
+  <h1>PAGAR</h1>
+
+  <div class="form-container">
+    <div class="section-title">Contacto</div>
+    <input type="email" placeholder="Correo electrónico" />
+
+    <div class="section-title">Dirección de envío</div>
+    <div class="input-group">
+      <input type="text" class="input-half" placeholder="Nombres" />
+      <input type="text" class="input-half" placeholder="Apellidos" />
+    </div>
+    <div class="input-group">
+      <input type="text" class="input-half" placeholder="Dirección" />
+      <input type="text" class="input-half" placeholder="Departamento" />
+    </div>
+    <div class="input-group">
+      <input type="text" class="input-half" placeholder="Ciudad" />
+      <input type="text" class="input-half" placeholder="Código Postal" />
+    </div>
+    <div class="input-group">
+      <input type="tel" placeholder="Teléfono" />
+    </div>
+
+    <div class="section-title">Forma de pago</div>
+    <div class="payment-section">
+      <div class="payment-method">
+        <label>Tarjeta de débito/crédito</label>
+        <div class="card-icons">
+          <span>💳</span> 
+          <span>💵</span> 
+          <span>📱</span> 
+          <span>💰</span> 
+        </div>
+      </div>
+
+      <div class="input-group">
+        <input type="text" class="input-half" placeholder="Titular de la tarjeta" />
+        <input type="text" class="input-half" placeholder="Número" />
+      </div>
+      <div class="input-group">
+        <input type="text" class="input-half" placeholder="MM/AA" />
+        <input type="text" class="input-half" placeholder="CVV" />
+      </div>
+    </div>
+
+    <button class="submit-btn">Realizar pedido</button>
+
+    <p class="legal-text">
+      Al hacer clic en "Realizar pedido" aceptas nuestros <a href="#" style="color:#007bff; text-decoration:underline;">Términos y condiciones</a> y <a href="#" style="color:#007bff; text-decoration:underline;">Políticas de envío</a>.
+    </p>
+  </div>
+
+  <iframe src="./footer.html" frameborder="0" scrolling="no" class="iframe"></iframe>
+</body>
+</html>
